@@ -1,6 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
+using System;
 
 public class VidaPersona : MonoBehaviour
 {
@@ -15,17 +20,35 @@ private int hp;
     }
 
 
-    void Update()
-    {
-        
-    }
+void Update()
+{
+  if(hp == 0)
+  {
+    SceneManager.LoadScene("GameOver");
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
      public void TomaDano(int damage_amout_p)
    {
     hp -= damage_amout_p;
 
     StartCoroutine(Hit());
-
    }
 
    private IEnumerator Hit()
