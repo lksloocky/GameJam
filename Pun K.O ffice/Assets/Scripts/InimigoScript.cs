@@ -1,0 +1,49 @@
+using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class InimigoScript : MonoBehaviour
+{
+    private Transform posisaoJogador;
+    public float velocidadeInimigo;
+    private int Health, MAXHP = 1;
+
+    void Start()
+    {
+        Health = MAXHP;
+
+        posisaoJogador = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+
+
+    void Update()
+    {
+         SegueJogador();
+    }
+
+    private void SegueJogador()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, posisaoJogador.position, velocidadeInimigo * Time.deltaTime);
+    }
+
+    public void TakeDamage(int damage_amout)
+   {
+    Health -= damage_amout;
+
+    if(Health<=0)
+    {
+        Destroy(gameObject);
+    }
+   }
+
+   private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.TryGetComponent<VidaPersona>(out VidaPersona cubeComponent))
+        {
+            cubeComponent.TomaDano(1);
+            Debug.Log("1");
+        }
+        
+    }
+}
