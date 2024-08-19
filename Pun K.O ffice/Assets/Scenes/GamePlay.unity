@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 374937401}
   - component: {fileID: 374937400}
   - component: {fileID: 374937399}
-  - component: {fileID: 374937398}
+  - component: {fileID: 374937404}
   - component: {fileID: 374937403}
   m_Layer: 0
   m_Name: Personagem
@@ -279,21 +279,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &374937398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 374937397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: face9966e9ef1a443b1d0e6c4a4dffa5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 6
-  RB2: {fileID: 374937400}
-  direcao: {x: 0, y: 0}
 --- !u!61 &374937399
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -334,7 +319,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -424,6 +409,23 @@ MonoBehaviour:
   HP: {fileID: 35450476}
   hpcount: 
   corzinha: {fileID: 374937401}
+--- !u!114 &374937404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374937397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80185b2fc1520746b1c915c5f4004fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rb2d: {fileID: 374937400}
+  dashSpeed: 10
+  dashLength: 0.5
+  dashCooldown: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
