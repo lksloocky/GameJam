@@ -6,21 +6,33 @@ public class Spawn_Inimigo : MonoBehaviour
 {
     public GameObject Inimigo;
 
+    public Vector2 spawnArea;
     public float SPAWN_RATE;   
 
-    private float NEXT_SPAWN; 
-    void Start()
-    {
-        
-    }
+    float timer;
+    
 
     void Update()
     {
-         if(Time.time > NEXT_SPAWN)
+        timer -= Time.deltaTime;
+         if(timer < 0f)
         {
-            NEXT_SPAWN = Time.time + SPAWN_RATE;
-
-            Instantiate(Inimigo, transform.position, Inimigo.transform.rotation);
+           SpawnEnemy();
+           timer = SPAWN_RATE;
         }
     }
+
+    private void SpawnEnemy()
+    {
+        Vector3 position = new Vector3
+        (
+            UnityEngine.Random.Range(-spawnArea.x, spawnArea.x),
+            UnityEngine.Random.Range(-spawnArea.y, spawnArea.y),
+            0f
+        );
+
+        GameObject newEnemy = Instantiate(Inimigo);
+        newEnemy.transform.position = position;
+    }
+
 }
