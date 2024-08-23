@@ -36,6 +36,7 @@ public class InimigoScript : MonoBehaviour
 
     if(Health<=0)
     {
+        ContaKill.Kills++;
         Destroy(gameObject);
     }
    }
@@ -51,4 +52,5 @@ public class InimigoScript : MonoBehaviour
         }
         
     }
+    
 }

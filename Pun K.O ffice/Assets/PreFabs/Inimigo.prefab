@@ -147,3 +147,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeInimigo: 3
+  knockbackPower: 100
+  knockbackDuration: 1
