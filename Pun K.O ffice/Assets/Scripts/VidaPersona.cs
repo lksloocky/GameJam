@@ -18,6 +18,7 @@ public string hpcount;
 
     void Start()
     {
+      ContaKill.Kills = 0;
       //atribui a vida maxima, podemos mudar dps
         hp = MAXHP;
     }

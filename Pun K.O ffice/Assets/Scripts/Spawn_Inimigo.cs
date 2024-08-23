@@ -7,6 +7,8 @@ public class Spawn_Inimigo : MonoBehaviour
     public GameObject Inimigo;
     public GameObject player;
 
+    public GameObject Boss;
+
     public Vector2 spawnArea;
     public float SPAWN_RATE;   
 
@@ -20,6 +22,11 @@ public class Spawn_Inimigo : MonoBehaviour
         {
            SpawnEnemy();
            timer = SPAWN_RATE;
+        }
+
+        if(ContaKill.Kills == 30)
+        {
+            SpawnBoss();
         }
     }
 
@@ -52,6 +59,17 @@ public class Spawn_Inimigo : MonoBehaviour
         position.z = 0;
 
         return position;
+    }
+
+     private void SpawnBoss()
+    {
+        ContaKill.Kills++;
+        Vector3 position2 = GenerateRandomPosition();
+
+        position2 += player.transform.position;
+
+        GameObject newBoss = Instantiate(Boss);
+        newBoss.transform.position = position2;
     }
 
 }
