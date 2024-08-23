@@ -28,6 +28,10 @@ public class SProjetil : MonoBehaviour
         {
             triangleComponent.TakeDamage(1);
         }
+        if(collision.gameObject.TryGetComponent<BossScript>(out BossScript bossComponent))
+        {
+            bossComponent.TakeDamage(1);
+        }
         Destroy(gameObject);
     }
 }

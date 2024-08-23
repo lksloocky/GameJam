@@ -593,6 +593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Inimigo: {fileID: 4636940545450807410, guid: d7aa08bc0ad57ea4499df36f994bb7c5, type: 3}
   player: {fileID: 374937397}
+  Boss: {fileID: 5316412157444224769, guid: b5dbe38d4499a9542be9274fbcab558b, type: 3}
   spawnArea: {x: 10, y: 10}
   SPAWN_RATE: 1
 --- !u!4 &1062020857

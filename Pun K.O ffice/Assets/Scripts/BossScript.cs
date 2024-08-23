@@ -31,8 +31,8 @@ public class BossScript : MonoBehaviour
 
     public void TakeDamage(int damage_amout)
    {
-    Health -= damage_amout;
-
+    Health = Health - damage_amout;
+    Debug.Log(Health);
     if(Health<=0)
     {
         Destroy(gameObject);
