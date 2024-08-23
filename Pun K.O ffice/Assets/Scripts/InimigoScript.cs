@@ -9,6 +9,9 @@ public class InimigoScript : MonoBehaviour
     public float velocidadeInimigo;
     private int Health, MAXHP = 1;
 
+    public float knockbackPower = 100;
+    public float knockbackDuration = 1;
+
     void Start()
     {
         Health = MAXHP;
@@ -42,6 +45,8 @@ public class InimigoScript : MonoBehaviour
         if(collision.gameObject.TryGetComponent<VidaPersona>(out VidaPersona cubeComponent))
         {
             cubeComponent.TomaDano(1);
+//Chama a rotina para knockback
+            StartCoroutine(TopdownMovement.instance.Knockback(knockbackDuration, knockbackPower, this.transform));
             Debug.Log("1");
         }
         

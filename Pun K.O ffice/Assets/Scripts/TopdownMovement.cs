@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TopdownMovement : MonoBehaviour
 {
+    public static TopdownMovement instance;
     public float moveSpeed;
     public Rigidbody2D rb2d;
     private Vector2 moveInput;
@@ -16,13 +17,17 @@ public class TopdownMovement : MonoBehaviour
     private float dashCounter;
     private float dashCoolCounter;
 
-    // Start is called before the first frame update
+   
+   private void Awake()
+   {
+    instance = this;
+   }
     void Start()
     {
         activeMoveSpeed = moveSpeed;
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         moveInput.x = Input.GetAxisRaw("Horizontal");
@@ -64,5 +69,22 @@ public class TopdownMovement : MonoBehaviour
             }
 
         }
+
+        
+    }
+
+
+//corotina para knockback
+    public IEnumerator Knockback(float knockbackDuration, float knockbackPower, Transform obj)
+    {
+        float timer = 0;
+
+        while (knockbackDuration > timer)
+        {
+            timer += Time.deltaTime;
+            Vector2 direction = (obj.transform.position - this.transform.position).normalized;
+            rb2d.AddForce(-direction * knockbackPower);
+        }
+        yield return 0;
     }
 }
