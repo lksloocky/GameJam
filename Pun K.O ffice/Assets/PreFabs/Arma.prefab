@@ -98,6 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Barrel: {fileID: 846942384461525278}
-  FireRate: 0
+  FireRate: 0.5
   Bullet: {fileID: 8723040192125797552, guid: 5c362fc00e5fac94d851592b53fa9444, type: 3}
   FireTimer: 0

@@ -27,7 +27,7 @@ public class Spawn_Inimigo : MonoBehaviour
         if(ContaKill.Kills == 30)
         {
             SpawnBoss();
-            SPAWN_RATE = SPAWN_RATE - 0.65f;
+            SPAWN_RATE = SPAWN_RATE - 0.5f;
         }
     }
 
