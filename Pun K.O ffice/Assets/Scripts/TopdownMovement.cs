@@ -17,6 +17,8 @@ public class TopdownMovement : MonoBehaviour
     private float dashCounter;
     private float dashCoolCounter;
 
+    public Animator animator;
+
    
    private void Awake()
    {
@@ -70,7 +72,9 @@ public class TopdownMovement : MonoBehaviour
 
         }
 
-        
+        animator.SetFloat("Horizontal", moveInput.x);
+        animator.SetFloat("Vertical", moveInput.y);
+        animator.SetFloat("Speed", moveInput.sqrMagnitude);
     }
 
 
