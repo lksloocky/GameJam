@@ -116,4 +116,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PROJ: {fileID: 0}
   LifeTime: 3
-  tiro_velo: 3
+  tiro_velo: 6.5
