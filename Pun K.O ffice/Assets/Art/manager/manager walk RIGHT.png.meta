@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac8081a5d8cdffc41b45da6933cb6cab
+guid: 14ccfce23c12f0d4480f59630f1aee26
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: manager side attacking sprite sheet_0
+      name: manager walk RIGHT_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e00b5cce20d556418cfed565de1c047
-      internalID: 1148042068
+      spriteID: 0162bb76272863e44b8c48f0e65f14b7
+      internalID: 1248354904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager side attacking sprite sheet_1
+      name: manager walk RIGHT_1
       rect:
         serializedVersion: 2
         x: 1600
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67225429e65021b44a4c917ba4e2f7b1
-      internalID: 1117966382
+      spriteID: 5b09ad0eda0f46345914239de7fab3ef
+      internalID: -339733669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager side attacking sprite sheet_2
+      name: manager walk RIGHT_2
       rect:
         serializedVersion: 2
         x: 3200
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b01da386aaed3e046bff01a4b729ffa0
-      internalID: -1881242480
+      spriteID: 87a34a3404e7a224b8a3e72c5d9922e3
+      internalID: 1893955842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager side attacking sprite sheet_3
+      name: manager walk RIGHT_3
       rect:
         serializedVersion: 2
         x: 4800
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cde29aad74a978244ad95edaff0f166f
-      internalID: -1593780304
+      spriteID: d200e413c033a2346b057d41617a433e
+      internalID: -907481251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager side attacking sprite sheet_4
+      name: manager walk RIGHT_4
       rect:
         serializedVersion: 2
         x: 6400
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f907a85c7b376740b26a279f78e684c
-      internalID: 1917184003
+      spriteID: 29f8b947519899c48b0ecb3aabe41f95
+      internalID: -1018324235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager side attacking sprite sheet_5
+      name: manager walk RIGHT_5
       rect:
         serializedVersion: 2
         x: 8000
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4342562c711697a4c9712e90f15f52e9
-      internalID: 1303538448
+      spriteID: bcbaaac92a810a6419af11b6286ebb7f
+      internalID: 2114302266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager side attacking sprite sheet_6
+      name: manager walk RIGHT_6
       rect:
         serializedVersion: 2
         x: 9600
@@ -245,29 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beac0df92d0e852438a1b36e30e56ea5
-      internalID: -2093799983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: manager side attacking sprite sheet_7
-      rect:
-        serializedVersion: 2
-        x: 11200
-        y: 0
-        width: 1600
-        height: 1600
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a25c263788309de40a8a813369b2c15c
-      internalID: -1342118772
+      spriteID: fb48d72af1866ec419d7f05482949214
+      internalID: -1531915167
       vertices: []
       indices: 
       edges: []
@@ -283,14 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      manager side attacking sprite sheet_4: 1917184003
-      manager side attacking sprite sheet_6: -2093799983
-      manager side attacking sprite sheet_2: -1881242480
-      manager side attacking sprite sheet_5: 1303538448
-      manager side attacking sprite sheet_0: 1148042068
-      manager side attacking sprite sheet_3: -1593780304
-      manager side attacking sprite sheet_7: -1342118772
-      manager side attacking sprite sheet_1: 1117966382
+      manager walk RIGHT_1: -339733669
+      manager walk RIGHT_2: 1893955842
+      manager walk RIGHT_0: 1248354904
+      manager walk RIGHT_4: -1018324235
+      manager walk RIGHT_5: 2114302266
+      manager walk RIGHT_6: -1531915167
+      manager walk RIGHT_3: -907481251
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
