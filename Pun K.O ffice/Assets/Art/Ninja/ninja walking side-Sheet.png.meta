@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e143c078c18d8174cb5c92b761f6845c
+guid: cb1274fa50f059f4ea4b2c5aad42f406
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 125
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: manager front walking sprite sheet_0
+      name: ninja walking side-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1600
-        height: 1600
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca556019e3c619c4d8139a06a98bdb6c
-      internalID: 824163377
+      spriteID: bf541bb36e0b8b04eb38efbf1f8c767b
+      internalID: 923847822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager front walking sprite sheet_1
+      name: ninja walking side-Sheet_1
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 1000
         y: 0
-        width: 1600
-        height: 1600
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c557e326b5b454e90a36b1c50e3ee7
-      internalID: 126118112
+      spriteID: 11b5b92a7ef82634dbafd054775b2bfe
+      internalID: 1964580980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager front walking sprite sheet_2
+      name: ninja walking side-Sheet_2
       rect:
         serializedVersion: 2
-        x: 3200
+        x: 2000
         y: 0
-        width: 1600
-        height: 1600
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0731e5699322f7148a98dcf79b3e3084
-      internalID: 1818060288
+      spriteID: 08b297e8e24f5824f9dc433c659130ab
+      internalID: 922273123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager front walking sprite sheet_3
+      name: ninja walking side-Sheet_3
       rect:
         serializedVersion: 2
-        x: 4800
+        x: 3000
         y: 0
-        width: 1600
-        height: 1600
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,71 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8490be99911bca45852d356d50f6b97
-      internalID: 1491710892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: manager front walking sprite sheet_4
-      rect:
-        serializedVersion: 2
-        x: 6400
-        y: 0
-        width: 1600
-        height: 1600
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 836a8e0a62a66b74e85c00788ce25439
-      internalID: 1766612352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: manager front walking sprite sheet_5
-      rect:
-        serializedVersion: 2
-        x: 8000
-        y: 0
-        width: 1600
-        height: 1600
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce577a9c2698a924f9d75910ccb0f415
-      internalID: 821325193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: manager front walking sprite sheet_6
-      rect:
-        serializedVersion: 2
-        x: 9600
-        y: 0
-        width: 1600
-        height: 1600
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6de6be562075794d95a400983d1be09
-      internalID: -1101878480
+      spriteID: d41dbdbdcaa646e4391c0db01c4ad902
+      internalID: -1785438933
       vertices: []
       indices: 
       edges: []
@@ -262,13 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      manager front walking sprite sheet_6: -1101878480
-      manager front walking sprite sheet_5: 821325193
-      manager front walking sprite sheet_1: 126118112
-      manager front walking sprite sheet_3: 1491710892
-      manager front walking sprite sheet_4: 1766612352
-      manager front walking sprite sheet_0: 824163377
-      manager front walking sprite sheet_2: 1818060288
+      ninja walking side-Sheet_0: 923847822
+      ninja walking side-Sheet_3: -1785438933
+      ninja walking side-Sheet_2: 922273123
+      ninja walking side-Sheet_1: 1964580980
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

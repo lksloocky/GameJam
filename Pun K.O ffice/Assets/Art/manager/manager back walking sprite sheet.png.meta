@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e143c078c18d8174cb5c92b761f6845c
+guid: a19cfdd9dbdd0e743bbae3ed08dd1807
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: manager front walking sprite sheet_0
+      name: manager back walking sprite sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca556019e3c619c4d8139a06a98bdb6c
-      internalID: 824163377
+      spriteID: dce44738c3095e44fb2f9162459f9b24
+      internalID: 457998658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager front walking sprite sheet_1
+      name: manager back walking sprite sheet_1
       rect:
         serializedVersion: 2
         x: 1600
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c557e326b5b454e90a36b1c50e3ee7
-      internalID: 126118112
+      spriteID: 3874ae8142f7f8c4e99dc1abdd383b92
+      internalID: 1488464824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager front walking sprite sheet_2
+      name: manager back walking sprite sheet_2
       rect:
         serializedVersion: 2
         x: 3200
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0731e5699322f7148a98dcf79b3e3084
-      internalID: 1818060288
+      spriteID: bc7a9b1f8035e7a428dd542120709194
+      internalID: -101556537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager front walking sprite sheet_3
+      name: manager back walking sprite sheet_3
       rect:
         serializedVersion: 2
         x: 4800
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8490be99911bca45852d356d50f6b97
-      internalID: 1491710892
+      spriteID: 38de0bcd4f5f3fe4c84de346180e69cd
+      internalID: -1381817986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager front walking sprite sheet_4
+      name: manager back walking sprite sheet_4
       rect:
         serializedVersion: 2
         x: 6400
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 836a8e0a62a66b74e85c00788ce25439
-      internalID: 1766612352
+      spriteID: 4ca4b782d55cf7d48a449d61b5452678
+      internalID: 983265090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager front walking sprite sheet_5
+      name: manager back walking sprite sheet_5
       rect:
         serializedVersion: 2
         x: 8000
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce577a9c2698a924f9d75910ccb0f415
-      internalID: 821325193
+      spriteID: 8066f5218aa148e43bd3c23473ac7e34
+      internalID: -505815968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manager front walking sprite sheet_6
+      name: manager back walking sprite sheet_6
       rect:
         serializedVersion: 2
         x: 9600
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6de6be562075794d95a400983d1be09
-      internalID: -1101878480
+      spriteID: 31d8d4e7ede64724fa51812da37d829b
+      internalID: 2041686088
       vertices: []
       indices: 
       edges: []
@@ -262,13 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      manager front walking sprite sheet_6: -1101878480
-      manager front walking sprite sheet_5: 821325193
-      manager front walking sprite sheet_1: 126118112
-      manager front walking sprite sheet_3: 1491710892
-      manager front walking sprite sheet_4: 1766612352
-      manager front walking sprite sheet_0: 824163377
-      manager front walking sprite sheet_2: 1818060288
+      manager back walking sprite sheet_5: -505815968
+      manager back walking sprite sheet_3: -1381817986
+      manager back walking sprite sheet_2: -101556537
+      manager back walking sprite sheet_1: 1488464824
+      manager back walking sprite sheet_4: 983265090
+      manager back walking sprite sheet_6: 2041686088
+      manager back walking sprite sheet_0: 457998658
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
