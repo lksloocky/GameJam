@@ -894,6 +894,7 @@ GameObject:
   - component: {fileID: 1320972307}
   - component: {fileID: 1320972306}
   - component: {fileID: 1320972305}
+  - component: {fileID: 1320972309}
   m_Layer: 0
   m_Name: AudioControllerGame
   m_TagString: Untagged
@@ -1011,8 +1012,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSourceMusicaDeFundo: {fileID: 1320972307}
   audioSourceMusicaDeFundo2: {fileID: 1320972305}
+  audioSourceMusicaDeFundo3: {fileID: 1320972309}
   musicaDeFundo: {fileID: 8300000, guid: 2c5574a87067476488e58d6cfda1f24b, type: 3}
   musicaDeFundo2: {fileID: 8300000, guid: aa13c9047e0a4ec43a66e8842b0d234e, type: 3}
+  musicaDeFundo3: {fileID: 8300000, guid: f8dd0f980bfe3fe42b466ad2230e0e4d, type: 3}
 --- !u!82 &1320972307
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1124,6 +1127,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1320972309
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320972304}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1354319729 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 529907628987057552, guid: da87944e105ecb7498091ec79fc1d12b, type: 3}
@@ -1236,7 +1335,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 23.3, y: 0}
+  m_Offset: {x: 48.2, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1247,7 +1346,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7, y: 50}
+  m_Size: {x: 56.8, y: 70.7}
   m_EdgeRadius: 0
 --- !u!1001 &1481451111
 PrefabInstance:
@@ -1631,7 +1730,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -23.3, y: 0}
+  m_Offset: {x: -48, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1642,7 +1741,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7, y: 50}
+  m_Size: {x: 56.3, y: 70.05}
   m_EdgeRadius: 0
 --- !u!4 &1873081256 stripped
 Transform:
@@ -1783,7 +1882,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -23.3}
+  m_Offset: {x: 0, y: -29.9}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1794,7 +1893,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 42, y: 7}
+  m_Size: {x: 42, y: 20.08}
   m_EdgeRadius: 0
 --- !u!1 &1995876752
 GameObject:
@@ -1988,7 +2087,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 19.4}
+  m_Offset: {x: 0, y: 27.23}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1999,7 +2098,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 42, y: 7}
+  m_Size: {x: 42.9, y: 22.6}
   m_EdgeRadius: 0
 --- !u!1001 &6866771649288143285
 PrefabInstance:
