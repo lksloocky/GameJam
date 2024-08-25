@@ -4,14 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class CanvasMenu : MonoBehaviour
 {
-   
-   public void LoadScenes(string cena)
+  public LevelLoad levelLoad;
+
+   public void LoadScenes(string SceneName)
    {
-    SceneManager.LoadScene(cena);
+        levelLoad.Transition(SceneName);
    }
 
     public void GameExit()
     {
         Application.Quit();
     }
+
 }
